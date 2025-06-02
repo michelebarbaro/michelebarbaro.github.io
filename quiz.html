@@ -1,0 +1,61 @@
+<html>
+    <head>
+
+        <title>QUIZ
+        </title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+<body>
+<h1>QUIZ</h1>
+
+<b>che anno è stata pubblicata la prima pagina web su Internet?</b>
+<br> <label for="risposta1">1991</label>
+<input type="radio" id="risposta1" name="ANNO" onclick="controllo(true)">
+<label for="risposta2">1994</label>
+<input type="radio" id="risposta2" name="ANNO" onclick="controllo(false)">
+
+
+<BR><BR><b>Che lavoro fa Tim Berners-Lee?</b>
+<BR><label for="risposta3">attore</label>
+<input type="radio" id="risposta3" name="lavoro" onclick="controllo(false)">
+<label for="risposta4">svilluppatore web</label>
+<input type="radio" id="risposta4" name="lavoro" onclick="controllo(true)">
+
+<BR><BR><b>in che anno è nato?</b>
+    <BR><label for="risposta5">1952</label>
+    <input type="radio" id="risposta5" name="nato" onclick="controllo(false)">
+    <label for="risposta6">1955</label>
+    <input type="radio" id="risposta6" name="nato" onclick="controllo(true)">
+
+    
+    <BR><BR><b>dove ha preso la sua laurea in fisica?</b>
+    <br> <label for="risposta7">Oxford university</label>
+    <input type="radio" id="risposta7" name="università" onclick="controllo(true)">
+    <label for="risposta8">Harvard university</label>
+    <input type="radio" id="risposta8" name="università" onclick="controllo(false)">
+    
+
+
+
+
+<script>
+function controllo(risposta) {
+  if (risposta) {
+    alert("Corretto!");
+  } else {
+    alert("Sbagliato!");
+  }
+}
+</script>
+
+
+
+
+
+
+
+</body>
+
+
+</html>
+    
