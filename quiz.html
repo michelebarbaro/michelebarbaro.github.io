@@ -8,7 +8,7 @@
 <body>
 <h1>QUIZ</h1>
 
-<b>che anno è stata pubblicata la prima pagina web su Internet?</b>
+<bh><b>In che anno è stata pubblicata la prima pagina web su Internet?</b>
 <br> <label for="risposta1">1991</label>
 <input type="radio" id="risposta1" name="ANNO" onclick="controllo(true)">
 <label for="risposta2">1994</label>
@@ -21,22 +21,43 @@
 <label for="risposta4">svilluppatore web</label>
 <input type="radio" id="risposta4" name="lavoro" onclick="controllo(true)">
 
-<BR><BR><b>in che anno è nato?</b>
+<BR><BR><b>In che anno è nato?</b>
     <BR><label for="risposta5">1952</label>
     <input type="radio" id="risposta5" name="nato" onclick="controllo(false)">
     <label for="risposta6">1955</label>
     <input type="radio" id="risposta6" name="nato" onclick="controllo(true)">
 
     
-    <BR><BR><b>dove ha preso la sua laurea in fisica?</b>
+    <BR><BR><b>Dove ha preso la sua laurea in fisica?</b>
     <br> <label for="risposta7">Oxford university</label>
     <input type="radio" id="risposta7" name="università" onclick="controllo(true)">
     <label for="risposta8">Harvard university</label>
     <input type="radio" id="risposta8" name="università" onclick="controllo(false)">
     
 
+<BR><BR><b>A cosa serve il web?</b>
+    <BR><label for="risposta5">a scopo solo di divertimento</label>
+    <input type="radio" id="risposta5" name="servire" onclick="controllo(false)">
+    <label for="risposta6">a condividere informazioni</label>
+    <input type="radio" id="risposta6" name="servire" onclick="controllo(true)">
 
+<BR><BR><b>Tim Berners_Lee crea internet per aiutare  i colleghi sparsi nel mondo?</b>
+    <BR><label for="risposta5">falso</label>
+    <input type="radio" id="risposta5" name="aiutare" onclick="controllo(false)">
+    <label for="risposta6">vero</label>
+    <input type="radio" id="risposta6" name="aiutare" onclick="controllo(true)">
+    
+    <BR><BR><b>Che cosa significa l'acronimo "www"</b>
+    <br> <label for="risposta7">world wide web</label>
+    <input type="radio" id="risposta7" name="www" onclick="controllo(true)">
+    <label for="risposta8">wide world web</label>
+    <input type="radio" id="risposta8" name="www" onclick="controllo(false)">
 
+    <BR><BR><b>Presso quale organizzazione lavorava Tim quando propose il world wide web?</b>
+    <BR><label for="risposta5">Google</label>
+    <input type="radio" id="risposta5" name="aiutare" onclick="controllo(false)">
+    <label for="risposta6">Cern</label>
+    <input type="radio" id="risposta6" name="aiutare" onclick="controllo(true)">
 
 <script>
 function controllo(risposta) {
