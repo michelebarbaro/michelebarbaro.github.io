@@ -7,7 +7,23 @@
     background-color: #69bfc5;
     font-family: Helvetica, sans-serif;
   }
+
+  a 
+  {
+    text-decoration: none;
+    color: #473aff;	
+  }
+
+  a:hover
+  {
+    text-decoration: underline;
+    color: #ff1e00;
+  }  
+
+  h1 {text-align: center;}
   
+  h2 {text-align: center;}
+
   /* The actual timeline (the vertical ruler) */
   .timeline {
     position: relative;
